@@ -8,11 +8,21 @@ using UnityEngine;
 
 public class DeerMovement : MonoBehaviour {
 
-    [SerializeField] private float min_speed;
-    [SerializeField] private float max_speed;
+    [Tooltip("The minimum speed of the deer's movement, will generate a random speed between min and max")]
+    [SerializeField]
+    private float min_speed;
 
-    [SerializeField] private float min_size;
-    [SerializeField] private float max_size;
+    [Tooltip("The maximum speed of the deer's movement, will generate a random speed between min and max")]
+    [SerializeField]
+    private float max_speed;
+
+    [Tooltip("The minimum size of the deer's movement, will generate a random size between min and max")]
+    [SerializeField]
+    private float min_size;
+
+    [Tooltip("The maximum size of the deer's movement, will generate a random size between min and max")]
+    [SerializeField]
+    private float max_size;
 
     //The random calculated speed
     private float speed;

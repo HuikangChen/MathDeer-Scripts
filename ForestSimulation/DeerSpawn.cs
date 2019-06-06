@@ -9,16 +9,23 @@ using UnityEngine;
 public class DeerSpawn : MonoBehaviour {
 
     //Deer prefabs to spawn at the main menu scene
+    [Tooltip("the deer prefabs to be spawned in the beginning menu scene")]
     [SerializeField]
     private List<GameObject> deer_prefabs = new List<GameObject>();
 
     //Spawn position for the deers
+    [Tooltip("Spawn position of the deer_prefabs")]
     [SerializeField]
     private Transform spawn_pos;
 
     //Min and max cooldown between spawns
-    [SerializeField] private float min_cooldown;
-    [SerializeField] private float max_cooldown;
+    [Tooltip("The minimum cooldown of the deer spawn, will generate a random size between min and max")]
+    [SerializeField]
+    private float min_cooldown;
+
+    [Tooltip("The maximum cooldown of the deer spawn, will generate a random size between min and max")]
+    [SerializeField]
+    private float max_cooldown;
 
 	// Use this for initialization
 	void Start () {
