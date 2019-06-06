@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 /// <summary>
+/// Manages the math results and displays all of it by spawning the prefab under the panel
 /// Contains and displays the list of math question + results at the end of the run
 /// </summary>
 

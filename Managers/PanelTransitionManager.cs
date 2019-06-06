@@ -2,6 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/// <summary>
+/// Handles the movement/transitions of the panels
+/// Slides panels to positions and manages the panels
+/// </summary>
+
 public class PanelTransitionManager : MonoBehaviour
 {
     private static PanelTransitionManager instance;

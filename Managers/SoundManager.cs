@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 
 /// <summary>
-/// Contains all the sounds the game plays
+/// Contains all the bg sounds and fx
+/// Conains all the audio sources that plays the audio clips
 /// </summary>
 
 public class SoundManager : MonoBehaviour

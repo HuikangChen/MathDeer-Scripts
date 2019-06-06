@@ -2,6 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/// <summary>
+/// Handles 2D collision, replacing Unity's 2d collision
+/// A more precise and reliable collision with raycasting
+/// Also moves the transform of the target given a velocity
+/// </summary>
+
 [System.Serializable]
 public class Controller2D { 
 

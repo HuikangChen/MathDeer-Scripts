@@ -2,6 +2,11 @@
 using UnityEngine;
 using InControl;
 
+/// <summary>
+/// This script controls all of the player's components and funtionalities. 
+/// Also controlling other components such as hitboxes and particletrails
+/// </summary>
+
 public class PlayerController : MonoBehaviour {
 
     private static PlayerController instance;

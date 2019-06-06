@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 
 /// <summary>
-/// Used for moving the deers in the main menu scene
+/// Used for moving the deers in the main menu scene, will generate a random speed and size for the deer
+/// Part of simulating a forest for the animations in the main menu
 /// </summary>
 
 public class DeerMovement : MonoBehaviour {

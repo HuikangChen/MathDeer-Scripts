@@ -2,6 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
+/// <summary>
+/// Manages the pools
+/// </summary>
+
 public class PoolManager : MonoBehaviour
 {
 

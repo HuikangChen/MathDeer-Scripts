@@ -4,6 +4,7 @@ using UnityEngine;
 using TMPro;
 
 /// <summary>
+/// Contains a single math result
 /// Used by MathResultManager to generate a list of MathResults
 /// </summary>
 

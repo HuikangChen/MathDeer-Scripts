@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 
 /// <summary>
-/// Used for spawning deers in the main menu
+/// Used for spawning deers in the main menu, random cooldown between each spawn
+/// Part of simulating a forest for the animations in the main menu
 /// </summary>
 
 public class DeerSpawn : MonoBehaviour {

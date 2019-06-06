@@ -2,6 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/// <summary>
+/// contains jump settings for the player
+/// </summary>
+
 [System.Serializable]
 class PlayerJumpSettings
 {

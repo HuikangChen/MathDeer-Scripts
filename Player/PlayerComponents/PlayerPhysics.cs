@@ -2,6 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/// <summary>
+/// Contains the players physics, such as gravity and it's multipliers, move speeed, ground checking
+/// Also contains the movement vector of the player
+/// </summary>
+
 [System.Serializable]
 class PlayerPhysics
 {

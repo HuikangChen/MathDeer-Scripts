@@ -4,6 +4,12 @@ using UnityEngine;
 
 /// <summary>
 /// Handles generation for math question and answer bank
+/// 
+/// Math questions are based on the setting that the user set
+/// Questions may include addition, subtraction, multiplication, division, parentheses 
+/// It also makes sure we cant divide by 0 and all questions will produce whole numbers as answers
+/// 
+/// The answers would be generated in a answer bank containing 1 correct and 9 wrong answers
 /// </summary>
 
 public class MathGenerator : MonoBehaviour

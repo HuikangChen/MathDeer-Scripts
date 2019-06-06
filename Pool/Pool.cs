@@ -2,6 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/// <summary>
+/// Contains the pooled prefab 
+/// </summary>
+
 public class Pool : MonoBehaviour
 {
 

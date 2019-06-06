@@ -5,6 +5,7 @@ using TMPro;
 using UnityEngine.UI;
 
 /// <summary>
+/// Sets the math result display when spawned by the MathResultManager
 /// Used by MathResultManager to set the math results onto the UI
 /// </summary>
 

@@ -2,6 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/// <summary>
+/// Handles spawning platforms as the player runs
+/// Contains different tiers of difficulty platforms to spawn
+/// </summary>
+
 public class PlatformSpawnManager : MonoBehaviour {
 
     private static PlatformSpawnManager instance;

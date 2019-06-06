@@ -3,6 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
+/// <summary>
+/// The pickup for answers, checks if the answer is correct when player picks it up
+/// </summary>
+
 public class AnswerPickup : MonoBehaviour {
 
     /// <summary>
